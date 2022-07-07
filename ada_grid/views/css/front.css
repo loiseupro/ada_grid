@@ -1,0 +1,37 @@
+
+
+#combinationGrid table, 
+#combinationGrid tr, 
+#combinationGrid td, 
+#combinationGrid th{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+#combinationGrid td,
+#combinationGrid th{
+	padding: 5px 10px;
+	vertical-align: middle;
+}
+
+#combinationGrid td span.error{
+	display: block;
+	background-color: red;
+	color: #fff;
+	margin-bottom: 10px;
+	text-align: center;
+	width: 100%;
+	border-radius: 4px;
+	font-size: 12px;
+}
+
+#combinationGrid td.price{
+	text-align: center;
+	white-space: nowrap;
+}
+
+#combinationGrid td img{
+	max-width: 50px;
+	max-height: 50px;
+	margin: 2px;
+}
